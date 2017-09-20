@@ -2,6 +2,9 @@
 .navbar{
     background-color: #CF002A;
     color: #000 !important;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
 }
 .navbar-nav>li>a{
     color: #ffffff !important;
@@ -18,4 +21,25 @@
     height: 35px;
     margin-left: -5px;
     margin-top: -5px;
+}
+
+.full-width-pic{
+    width: 100%;
+}
+
+.no-gutter{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.image {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    top: 470px;
+    left: 380px;
+    color: ghostwhite;
+    font-size: 50px;
 }
