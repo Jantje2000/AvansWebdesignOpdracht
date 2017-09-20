@@ -11,6 +11,11 @@
     background-color: #ffffff !important;
 }
 
-.navbar-nav>li.active>a{
+.navbar-nav>li.active>a {
     color: #000000 !important;
+}
+.logo-size {
+    height: 35px;
+    margin-left: -5px;
+    margin-top: -5px;
 }
