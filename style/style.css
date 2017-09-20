@@ -3,3 +3,14 @@
     background-color: #CF002A;
     color: #000 !important;
 }
+.navbar-nav>li>a{
+    color: #ffffff !important;
+}
+
+.navbar-nav>li.active>a{
+    background-color: #ffffff !important;
+}
+
+.navbar-nav>li.active>a{
+    color: #000000 !important;
+}
