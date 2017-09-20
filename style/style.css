@@ -3,3 +3,9 @@
     background-color: #CF002A;
     color: #000 !important;
 }
+
+.logo-size {
+    height: 35px;
+    margin-left: -5px;
+    margin-top: -5px;
+}
