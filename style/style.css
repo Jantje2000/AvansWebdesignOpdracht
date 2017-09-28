@@ -7,13 +7,20 @@
     color: #ffffff !important;
 }
 
-.navbar-nav>li.active>a{
-    background-color: #ffffff !important;
+.navbar-nav>li>ul>li>a{
+    color: #ffffff !important;
 }
 
-.navbar-nav>li.active>a {
+.navbar-nav>li.active>a{
+    background-color: #ffffff !important;
     color: #000000 !important;
 }
+
+.navbar-nav>li.open>a{
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
 .logo-size {
     height: 35px;
     margin-left: -5px;
