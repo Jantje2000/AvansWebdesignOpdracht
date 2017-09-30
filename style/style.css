@@ -43,10 +43,15 @@
     position: relative;
 }
 
-h2 {
+.text-on-image{
     position: absolute;
-    top: 470px;
-    left: 380px;
-    color: ghostwhite;
-    font-size: 50px;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.h2-text-image{
+    font-size: 5vw;
+    white-space: nowrap;
+    color: white;
 }
