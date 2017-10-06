@@ -76,3 +76,22 @@ img {
     color: white;
     font-weight: bold;
 }
+
+/* the education page */
+.sidebar{
+    max-width:200px;
+    position: absolute;
+    top: 100px;
+    bottom: 50px;
+    background-color: #CF002A;
+    color: #ffffff;
+}
+
+.nav > li > a{
+    color: #ffffff;
+}
+
+.nav > li > a:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
