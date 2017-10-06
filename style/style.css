@@ -39,11 +39,12 @@
     padding-right: 0!important;
 }
 
-/* the homepage */
-/*.image {
-    position: relative;
+.icon-bar { /* the bar we use to collapse the navbar */
+    background-color: #fff !important;
 }
-*/
+
+/* the homepage */
+
 .text-on-image{
     position: absolute;
     bottom: 25%;
