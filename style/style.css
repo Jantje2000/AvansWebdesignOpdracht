@@ -1,25 +1,26 @@
 /* general for multiple pages */
-.navbar{
+.navbar {
     background-color: #CF002A;
     color: #000 !important;
     margin-bottom: 0;
     border: none;
     border-radius: 0;
 }
-.navbar-nav>li>a{
+
+.navbar-nav > li > a {
     color: #ffffff !important;
 }
 
-.navbar-nav>li>ul>li>a{
+.navbar-nav > li > ul > li > a {
     color: #ffffff !important;
 }
 
-.navbar-nav>li.active>a{
+.navbar-nav > li.active > a {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
 
-.navbar-nav>li.open>a{
+.navbar-nav > li.open > a {
     background-color: #ffffff !important;
     color: #000000 !important;
 }
@@ -30,13 +31,13 @@
     margin-top: -5px;
 }
 
-.full-width-pic{
+.full-width-pic {
     width: 100%;
 }
 
-.no-gutter{
-    padding-left: 0!important;
-    padding-right: 0!important;
+.no-gutter {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .icon-bar { /* the bar we use to collapse the navbar */
@@ -45,14 +46,7 @@
 
 /* the homepage */
 
-.text-on-image{
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-.h2-text-image{
+.h2-text-image {
     font-size: 5vw;
     white-space: nowrap;
     color: white;
@@ -69,17 +63,17 @@ img {
 
 .caption {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
-    transform: translate( -50%, -50% );
+    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-weight: bold;
 }
 
 /* the education page */
-.sidebar{
-    max-width:200px;
+.sidebar {
+    max-width: 200px;
     position: absolute;
     top: 100px;
     bottom: 50px;
@@ -87,11 +81,38 @@ img {
     color: #ffffff;
 }
 
-.nav > li > a{
+.nav > li > a {
     color: #ffffff;
 }
 
-.nav > li > a:hover{
+.nav > li > a:hover {
     color: #000000;
     background-color: #ffffff;
+}
+
+.center-block {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    height: 200px;
+}
+
+.text-size{
+    font-size: 2vw;
+    position: absolute;
+    top: 80%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-size {
+        font-size: 5vw;
+    }
 }
