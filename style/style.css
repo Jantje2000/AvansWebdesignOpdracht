@@ -71,6 +71,12 @@ img {
     font-weight: bold;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    .text-size {
+        font-size: 5vw;
+    }
+}
 /* the education page */
 .sidebar {
     max-width: 200px;
@@ -110,9 +116,8 @@ img {
     color: white;
 
 }
-
-@media only screen and (max-width: 1000px) {
-    .text-size {
-        font-size: 5vw;
-    }
+.education-text{
+    margin-top: 50px;
+    margin-left: 200px;
+    
 }
