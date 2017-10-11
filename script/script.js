@@ -9,11 +9,11 @@ var onResize = function(){
         $("#education-navbar").attr({"class": "dropdown-toggle", "data-toggle": "dropdown", "href": "#"}); // classes, datatoggle and href for dropdown menu
         $("#education-navbar").append('<span class="caret"></span>'); // add a icon which let see that this is a dropdown menu
         $("#education-navbar").after('<ul class="dropdown-menu">\n' +
-                                        '<li><a href="#">Wat is informatica</a></li>\n' +
-                                        '<li><a href="#">Toelatingseisen</a></li>\n' +
-                                        '<li><a href="#">Opbouw van de studie</a></li>\n' +
-                                        '<li><a href="#">Studiepunten</a></li>\n' +
-                                        '<li><a href="#">Beroepen</a></li>\n' +
+                                        '<li><a href="opleiding.html#informatica">Wat is informatica</a></li>\n' +
+                                        '<li><a href="opleiding.html#toelatingseisen">Toelatingseisen</a></li>\n' +
+                                        '<li><a href="opleiding.hmtl#studieopbouw">Opbouw van de studie</a></li>\n' +
+                                        '<li><a href="opleiding.html#studiepunten">Studiepunten</a></li>\n' +
+                                        '<li><a href="opleiding.html#beroepen">Beroepen</a></li>\n' +
                                     '</ul>'); // and add the items of the dropdown menu
         $(".education-text").css("margin-left", "0px");
     }else{
@@ -21,24 +21,26 @@ var onResize = function(){
             $(".sidebar").append('<div class="sidebar-nav navbar-collapse">\n' +
                 '            <ul class="nav" id="side-menu">\n' +
                 '                <li>\n' +
-                '                    <a href="#"> Wat is informatica</a>\n' +
+                '                    <a href="#informatica"> Wat is informatica</a>\n' +
                 '                </li>\n' +
                 '                <li>\n' +
-                '                    <a href="#"> Toelatingseisen</a>\n' +
+                '                    <a href="#toelatingseisen"> Toelatingseisen</a>\n' +
                 '                </li>\n' +
                 '                <li>\n' +
-                '                    <a href="#"> Opbouw van de studie</a>\n' +
+                '                    <a href="#studieopbouw"> Opbouw van de studie</a>\n' +
                 '                </li>\n' +
                 '                <li>\n' +
-                '                    <a href="#"> Studiepunten</a>\n' +
+                '                    <a href="#studiepunten"> Studiepunten</a>\n' +
                 '                </li>\n' +
                 '                <li>\n' +
-                '                    <a href="#"> Beroepen</a>\n' +
+                '                    <a href="#beroepen"> Beroepen</a>\n' +
                 '                </li>\n' +
                 '            </ul>\n' +
-                '        </div>')
+                '        </div>');
+            $(".education-text").css("margin-left", "215px");
+        }else{
+            $("#education-navbar").attr("href", "opleiding.html");
         }
-        $(".education-text").css("margin-left", "215px");
     }
 };
 

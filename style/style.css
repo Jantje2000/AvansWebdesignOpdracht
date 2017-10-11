@@ -69,7 +69,7 @@ img {
 /* the education page */
 .sidebar {
     max-width: 200px;
-    position: absolute;
+    position: fixed;
     top: 100px;
     bottom: 50px;
     background-color: #CF002A;
@@ -145,6 +145,10 @@ tbody>tr{
     border-bottom: 2px solid black;
     background-color: inherit;
     color: black;
+}
+
+.last-education-row{
+    margin-bottom: 50px;
 }
 
 .footer{
