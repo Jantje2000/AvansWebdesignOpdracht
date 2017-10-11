@@ -6,48 +6,760 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
 </head>
 <body>
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" id="collapsemenubutton" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img class="logo-size" src="Images/Avans Logo.png" alt="Logo Avans"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="opleiding.html" id="education-navbar">Opleiding</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<div class="container-fluid no-gutter">
-    <div class="navbar-default" style="float:left;" role="navigation">
+<div class="containter-fluid">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <div class="container-fluid">
-                <div class="sidebar">
-                    <!-- the education menu will come here -->
-                </div>
+            <div class="navbar-header">
+                <button type="button" id="collapsemenubutton" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="logo-size" src="Images/Avans Logo.png" alt="Logo Avans"></a>
             </div>
-            <div class="container-fluid education-text">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="opleiding.html" id="education-navbar">Opleiding</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid no-gutter">
+        <div class="navbar-default" style="float:left;" role="navigation">
+            <div class="container-fluid">
+                <div class="container-fluid">
+                    <div class="sidebar">
+                        <!-- the education menu will come here -->
+                    </div>
+                </div>
+                <div class="container-fluid education-text">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Wat is informatica</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            Waarschijnlijk bent u op onze website terecht gekomen, omdat u zich aan het oriënteren bent op de studie die u wilt gaan doen.
+                            Dan is er natuurlijk de hoofdvraag wat informatica nu precies inhoudt.
+                            Veel mensen denken bij informatica aan die computer-nerds die de hele dag naar flikkerende beeldschermen kijken op hun zolderkamer.
+                            Dit is echter niet hoe de werkelijkheid in elkaar steekt.
+                            Programmeurs en software developers moeten namelijk enigszins communicatief vaardig zijn, om zo samen te kunnen werken in de teams.
+                            Daarom zitten er op de informatica opleiding natuurlijk mensen die handig zijn met programmeurs, maar over het algemeen zijn die behoorlijk communicatief vaardig,
+                            waarbij de meeste leerlingen gevoel voor humor hebben.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Toelatingseisen</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>
+                                Om de informatica opleiding te mogen starten zijn er toelatingseisen die bepalen of u mag beginnen aan de opleiding.
+                                Deze zijn niet bijzonder streng, maar wel streng genoeg om het eerste kaf onder het koren te scheiden.
+                                Ieder havo en vwo profiel is voldoende om de informatica opleiding te mogen beginnen en er zijn ook geen vakken die verplicht zijn om te hebben in het profiel.
+                            </p>
+                            <p>
+                                Vanaf mbo-niveau-4 kan er ook worden doorgestroomd naar hbo, maar dit gaat niet in alle gevallen op.
+                                Enkel als de mbo opleiding voldoende aansluit bij de leerstof die er op het hbo gegeven gaat worden bent u automatisch toegestaan op de opleiding.
+                                Wanneer de opleiding niet, of niet genoeg aansluit op de hbo informatica opleiding wordt u alleen toegelaten als u een positief advies krijgt op de studiekeuzecheck.
+                            </p>
+                            <p>
+                                Indien u de hbo-propedeuse of de wo-propedeuse hebt wordt u uiteraard ook toegelaten tot de opleiding.
+                            </p>
+                            <p>
+                                Als u een opleiding op mbo hebt gevolgd die heel goed aansluit op de hbo-opleiding kunt u vrijstelling krijgen voor sommige vakken.
+                                Het eerste jaar doet u dan in een half jaar.
+                                Soms kunt u ook de stage uit het derde jaar overslaan, maar dit geldt enkel indien de praktijkstage die u op het mbo deed op een niveau was dat hoog genoeg is.
+                            </p>
+                            <p>
+                                Wanneer u eenentwintig jaar bent en geen havo- of vwo diploma bezit kunt u een 21+ toets maken.
+                                Indien u daarvoor een voldoende haalt wordt u ook toegelaten op hbo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Opbouw van de studie</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            In de onderstaande grafiek laten wij zien hoe de opbouw van de informatica opleiding is.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="nav nav-pills">
+                                <li class="active"><a data-toggle="pill" href="#jaar1">Jaar 1</a></li>
+                                <li><a data-toggle="pill" href="#jaar2">Jaar 2</a></li>
+                                <li><a data-toggle="pill" href="#jaar3">Jaar 3</a></li>
+                                <li><a data-toggle="pill" href="#jaar4">Jaar 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="tab-content"> <!-- the table with the study construction -->
+                                <div id="jaar1" class="tab-pane fade in active">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="first-construct-column">Vakken</th>
+                                                <th>Blok 1</th>
+                                                <th>Blok 2</th>
+                                                <th>Blok 3</th>
+                                                <th>Blok 4</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Bedrijfs-processen</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Beroeps-orientatie</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nederlands</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Programmeren in Java en Android</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td><div class="progress">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                     aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                    <span class="sr-only">100% Complete</span>
+                                                </div>
+                                            </div></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Relationele Databases</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Studie vaardigheden</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Webdesign</td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>English</td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Duurzame Ontwikkeling</td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Professionele Vaardigheden</td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Requirements Engineering</td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Onderzoeks vaardigheden</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Project Management & Software Engineering</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Software ontwerp & -architectuur</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Netwerken</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Scrum project</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                         aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                        <span class="sr-only">100% Complete</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="jaar2" class="tab-pane fade">
+                                    <h3>Jaar 2</h3>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th class="first-construct-column">Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>User Experience</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Scrum Project</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Server-side webdevelopment (ASP.net)</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Algoritmen & Datastructuren</td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Client-side webdevelopment (JavaScript)</td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Big data/machine learning</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Business intelligence</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Security</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Netwerken</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Professionele vaardigheden</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="jaar3" class="tab-pane fade">
+                                    <h3>Jaar 3</h3>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th class="first-construct-column">Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Praktijkstage</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Professionele vaardigheden (ethiek)</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Security</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Software architectuur</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Artificial Intelligence</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Serious gaming</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Solution architecture</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>User Experience	</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="jaar4" class="tab-pane fade">
+                                    <h3>Jaar 4</h3>
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <th class="first-construct-column">Vakken</th>
+                                            <th>Blok 1</th>
+                                            <th>Blok 2</th>
+                                            <th>Blok 3</th>
+                                            <th>Blok 4</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Minor</td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Afstudeerstage</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                            <span class="sr-only">100% Complete</span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h2>Studiepunten</h2>
+                    test
+                    <h2>Mogelijke beroepen</h2>
+                    test
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 <!-- The divs we use to check which grid breakpoint now is used (source is got from https://stackoverflow.com/questions/18575582/how-to-detect-responsive-breakpoints-of-twitter-bootstrap-3-using-javascript) -->
 <div class="device-xs visible-xs"></div>
 <div class="device-sm visible-sm"></div>
