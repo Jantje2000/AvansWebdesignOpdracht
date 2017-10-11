@@ -44,6 +44,26 @@
     background-color: #fff !important;
 }
 
+
+.footer{
+    height: 75px;
+    background-color: black;
+    margin-bottom: 0;
+    margin-top: 35px;
+    color: white;
+    width: 100%;
+    border: 1.3px solid dimgray;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 18px;
+    font-size: 15px;
+}
+
 /* the homepage */
 
 .h2-text-image {
@@ -65,6 +85,19 @@ img {
     color: white;
     font-weight: bold;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .text-size {
+        font-size: 5vw;
+    }
+}
+
+.main-text{
+    margin-top: 50px;
+    /*margin-left: 200px;*/
+}
+
 
 /* the education page */
 .sidebar {
@@ -106,17 +139,6 @@ img {
 
 }
 
-@media only screen and (max-width: 1000px) {
-    .text-size {
-        font-size: 5vw;
-    }
-}
-
-.main-text{
-    margin-top: 50px;
-    margin-left: 200px;
-}
-
 .first-construct-column{
     width: 40%;
 }
@@ -149,23 +171,4 @@ tbody>tr{
 
 .last-education-row{
     margin-bottom: 50px;
-}
-
-.footer{
-    height: 75px;
-    background-color: black;
-    margin-bottom: 0;
-    margin-top: 35px;
-    color: white;
-    width: 100%;
-    border: 1.3px solid dimgray;
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
-    text-align: center;
-}
-
-.footer p{
-    margin-top:18px;
-    font-size: 2vw;
 }
