@@ -1,15 +1,11 @@
-function isBreakpoint( alias ) {
-    return $('.device-' + alias).is(':visible');
-}
-
-$(window).resize(function(){
+var onResize = function(){
     // first delete all elements to prevent double elements
     $("#education-navbar").attr({"class": "", "data-toggle": "", "href": "#"}); //TODO: Ik moet nog maken dat hier de werkelijke link komt in plaats van de # die er nu staat.
     $(".caret").remove();
     $(".dropdown-menu").remove();
     $(".sidebar-nav").remove();
 
-    if(isBreakpoint("xs") || isBreakpoint("sm")){ // and if you are on mobile phone you will get a dropdown menu
+    if($("#collapsemenubutton").is(":visible")){ // and if you are on mobile phone you will get a dropdown menu
         $("#education-navbar").attr({"class": "dropdown-toggle", "data-toggle": "dropdown", "href": "#"}); // classes, datatoggle and href for dropdown menu
         $("#education-navbar").append('<span class="caret"></span>'); // add a icon which let see that this is a dropdown menu
         $("#education-navbar").after('<ul class="dropdown-menu">\n' +
@@ -18,7 +14,8 @@ $(window).resize(function(){
                                         '<li><a href="#">Opbouw van de studie</a></li>\n' +
                                         '<li><a href="#">Studiepunten</a></li>\n' +
                                         '<li><a href="#">Beroepen</a></li>\n' +
-                                    '</ul>') // and add the items of the dropdown menu
+                                    '</ul>'); // and add the items of the dropdown menu
+        $(".education-text").css("margin-left", "0px");
     }else{
         if(location.pathname.split("/")[location.pathname.split("/").length - 1] === "opleiding.html"){
             $(".sidebar").append('<div class="sidebar-nav navbar-collapse">\n' +
@@ -41,5 +38,10 @@ $(window).resize(function(){
                 '            </ul>\n' +
                 '        </div>')
         }
+        $(".education-text").css("margin-left", "215px");
     }
-});
+};
+
+$(document).ready(onResize);
+
+$(window).bind('resize', onResize);
