@@ -172,3 +172,16 @@ tbody>tr{
 .last-education-row{
     margin-bottom: 50px;
 }
+
+/* the contact page */
+iframe{
+    width: 100%;
+    border: 0;
+}
+.contactcontent, .persons{
+    margin-top: 20px;
+}
+
+.contact-title{
+    text-align: center;
+}
