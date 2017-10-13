@@ -49,7 +49,7 @@
     height: 75px;
     background-color: black;
     margin-bottom: 0;
-    margin-top: 35px;
+    margin-top: 10px;
     color: white;
     width: 100%;
     border: 1.3px solid dimgray;
@@ -94,7 +94,7 @@ img {
 }
 
 .main-text{
-    margin-top: 50px;
+    margin-top: 20px;
     /*margin-left: 200px;*/
 }
 
@@ -118,25 +118,14 @@ img {
     background-color: #ffffff;
 }
 
-.center-block {
-    display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    border: solid;
-    border-width: 1px;
-    border-color: black;
-
-}
 
 .text-size{
-    font-size: 2vw;
     position: absolute;
     top: 80%;
-    left: 32%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    left: 40%;
+    transform: translate( -50%, -50% );
     color: white;
-
+    font-weight: bold;
 }
 
 .first-construct-column{
@@ -184,4 +173,13 @@ iframe{
 
 .contact-title{
     text-align: center;
+}
+
+.blockrow{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+
 }
